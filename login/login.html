@@ -1,25 +1,41 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Log In</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div>
-            <form>
-                <label>Email:</label><br/>
-                <input type="email" name="email"><br/>
-                <label>Password:</label><br/>
-                <input type="password" name="password"><br/><br/>
-                <input type="submit" value="Sign Up">
-            </form>
-        </div>
-        <script src="" async defer></script>
-    </body>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Southwest Airline</title>
+	<link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+	<nav class="navbar">
+		<div class="logo">MySite</div>
+		<ul class="nav-links">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="signUp.html">signUp</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="content">
+
+		<div class="login-container">
+			<h2>Login</h2>
+			<form action="login_process.php" method="POST">
+				<div class="input-group">
+					<label for="username">Username</label>
+					<input type="text" id="username" name="username" required>
+				</div>
+				<div class="input-group">
+					<label for="password">Password</label>
+					<input type="password" id="password" name="password" required>
+				</div>
+				<button type="submit" class="login-btn">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
+
 </html>
