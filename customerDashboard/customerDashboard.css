@@ -1,6 +1,8 @@
 html {
 	font-family: Arial;
+	text-color: 
 }
+
 
 header a {
 	color: rgb(0, 51, 153);
@@ -18,7 +20,7 @@ nav div {
 
 button {
   background-color: #FFD700;
-  color: #000000;
+  color: #0A0A28;
   border: none;
   border-radius: 25px;
   padding: 10px 20px;
@@ -41,4 +43,8 @@ button:active {
   background-color: #FFB700;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transform: translateY(1px);
+}
+
+footer {
+	font-size: 12px;
 }
