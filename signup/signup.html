@@ -14,6 +14,7 @@
         <![endif]-->
         <div class="container">
 			<div class ="signup-box">
+				<h1>Signup for Southwest Airlines</h1>
 				<form>
 					<label>First Name:</label><br/>
 					<input type="text" name="firstName"><br/>
@@ -23,7 +24,10 @@
 					<input type="email" name="email"><br/>
 					<label>Password:</label><br/>
 					<input type="password" name="password"><br/><br/>
-					<input type="radio" name="customer"> Customer &nbsp; &nbsp; <input type="radio" name="employee"> Employee<br/>
+					<lable>
+						<input type="radio" name="userType" value="customer" required> Customer
+						<input type="radio" name="userType" value="employee" required> Employee
+					</lable>
 					<input type="submit" value="Sign Up">
 				</form>
 			<div>

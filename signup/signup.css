@@ -13,7 +13,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
 }
 
 .container {
@@ -24,12 +23,11 @@ body {
 }
 
 .signup-box {
-    background-color: #FFCC00;
+    background-color: #FFBF27;
     border: 2px solid black;
     padding: 20px;
     border-radius: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 350px;
+    width: 30em;
     text-align: left;
 }
 
@@ -39,10 +37,6 @@ body {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.signup-box input[type="radio"] {
-	left: 30px;
 }
 
 .signup-box button {
